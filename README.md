@@ -24,8 +24,11 @@ Data persistence via MySQL backend
 exporting records to a text file to be saved on the system
 
 Three types of employees:
+
 1- ADMIN has the ability to ADD, UPDATE, DELETE, EXPORT records, the default username and password of the admin are "admin" admin
+
 2- Pharmacist has the ability to ADD, UPDATE, and EXPORT records.  The default username and password of the pharmacist are "pharmacist".
+
 3-assistant has the ability to view and export records.  The default username and password of the assistant are "Assistant" assistant
 
 ADMIN VIEW
