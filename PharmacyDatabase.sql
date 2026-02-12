@@ -312,7 +312,17 @@ END;
 //
 DELIMITER ;
 
-
+CREATE TABLE IF NOT EXISTS activity_log (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Username VARCHAR(50) NOT NULL,
+    Role VARCHAR(20) NOT NULL,
+    Action VARCHAR(50) NOT NULL,
+    Description VARCHAR(255),
+    Timestamp DATETIME NOT NULL,
+    INDEX idx_username (Username),
+    INDEX idx_timestamp (Timestamp),
+    INDEX idx_action (Action)
+);
 
 /* sample insert statements (10 per table)
 INSERT INTO Supplier VALUES (1, 'PharmaCo', '123456789', 'Riyadh');
