@@ -1,4 +1,5 @@
 # Pharmacy-Management-System-Java-MySQL
+**My first full project (May 2025), written by hand to learn Java, Swing and JDBC. I’ve kept it as-is to show where I started; see Iqraa Library for my later work.”**
 A Java-based desktop application for managing pharmacy operations, including medicine inventory, customer records, sales tracking, and staff management. The system uses a MySQL database for data storage and features a user-friendly Swing GUI for efficient interaction.
 
 Technologies Used
